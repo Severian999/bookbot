@@ -30,9 +30,6 @@ def make_report(words, chars):
         print(line)
     
     
-
-
-
 total_words = word_count(file_contents)
 total_chars = char_count(file_contents)
 make_report(total_words, total_chars)
